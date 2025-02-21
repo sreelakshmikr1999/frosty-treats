@@ -1,0 +1,299 @@
+{
+  "products": [
+    {
+      "id": "16",
+      "name": "Strawberry Cheesecake",
+      "price": 599,
+      "rating": 4.8,
+      "description": "A creamy cheesecake with a fresh strawberry topping.",
+      "imageUrl": "assets/cake16.jpg",
+      "ingredients": [
+        "Cream Cheese",
+        "Strawberries",
+        "Sugar",
+        "Eggs",
+        "Graham Cracker Crust"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Mango Mousse Cake",
+      "price": 699,
+      "rating": 4.7,
+      "description": "A light and refreshing mango mousse cake.",
+      "imageUrl": "assets/cake18.jpg",
+      "ingredients": [
+        "Mango",
+        "Cream",
+        "Sugar",
+        "Gelatin",
+        "Biscuits"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Chocolate Fudge Cake",
+      "price": 799,
+      "rating": 4.9,
+      "description": "A rich and dense chocolate cake topped with fudge.",
+      "imageUrl": "assets/cake19.jpg",
+      "ingredients": [
+        "Cocoa",
+        "Sugar",
+        "Butter",
+        "Eggs",
+        "Flour"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Vanilla Sponge Cake",
+      "price": 320,
+      "rating": 4.3,
+      "description": "A soft and airy vanilla sponge cake.",
+      "imageUrl": "assets/cake20.jpg",
+      "ingredients": [
+        "Flour",
+        "Vanilla Extract",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Pistachio Cake",
+      "price": 650,
+      "rating": 4.6,
+      "description": "A nutty cake made with crushed pistachios.",
+      "imageUrl": "assets/cake21.jpg",
+      "ingredients": [
+        "Pistachios",
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Peach Cake",
+      "price": 550,
+      "rating": 4.4,
+      "description": "A fruity cake with fresh peaches.",
+      "imageUrl": "assets/cake22.jpg",
+      "ingredients": [
+        "Peaches",
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Cinnamon Roll Cake",
+      "price": 399,
+      "rating": 4.5,
+      "description": "A cake that tastes just like a cinnamon roll.",
+      "imageUrl": "assets/cake23.jpg",
+      "ingredients": [
+        "Flour",
+        "Cinnamon",
+        "Sugar",
+        "Butter",
+        "Eggs"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Red Velvet Cake",
+      "price": 750,
+      "rating": 4.8,
+      "description": "A classic red velvet cake with cream cheese frosting.",
+      "imageUrl": "assets/cake24.jpg",
+      "ingredients": [
+        "Flour",
+        "Cocoa Powder",
+        "Sugar",
+        "Eggs",
+        "Cream Cheese"
+      ]
+    },
+    {
+      "name": "Apple Cake",
+      "price": 450,
+      "description": "A moist cake with apples and cinnamon.",
+      "imageUrl": "assets/cake25.jpg",
+      "ingredients": [
+        "Apples",
+        "Flour",
+        "Cinnamon",
+        "Sugar",
+        "Eggs"
+      ],
+      "rating": 4.3,
+      "id": "25"
+    },
+    {
+      "id": "26",
+      "name": "Tropical Cake",
+      "price": 699,
+      "rating": 4.7,
+      "description": "A cake with tropical fruits like pineapple and coconut.",
+      "imageUrl": "assets/cake26.jpg",
+      "ingredients": [
+        "Pineapple",
+        "Coconut",
+        "Flour",
+        "Sugar",
+        "Eggs"
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Chocolate Chip Cake",
+      "price": 499,
+      "rating": 4.6,
+      "description": "A fluffy cake filled with chocolate chips.",
+      "imageUrl": "assets/cake27.jpg",
+      "ingredients": [
+        "Flour",
+        "Chocolate Chips",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Caramel Cake",
+      "price": 450,
+      "rating": 4.4,
+      "description": "A moist caramel cake with caramel frosting.",
+      "imageUrl": "assets/cake28.jpg",
+      "ingredients": [
+        "Caramel",
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Churros Cake",
+      "price": 520,
+      "rating": 4.5,
+      "description": "A cake inspired by the famous churros dessert.",
+      "imageUrl": "assets/cake29.jpg",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Cinnamon",
+        "Butter",
+        "Eggs"
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Coconut Cake",
+      "price": 550,
+      "rating": 4.6,
+      "description": "A moist coconut-flavored cake.",
+      "imageUrl": "assets/cake30.jpg",
+      "ingredients": [
+        "Coconut",
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Matcha Green Tea Cake",
+      "price": 800,
+      "rating": 4.9,
+      "description": "A cake made with matcha green tea for a unique flavor.",
+      "imageUrl": "assets/cake31.jpg",
+      "ingredients": [
+        "Matcha Powder",
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "name": "Maple Pecan Cake",
+      "price": 750,
+      "description": "A sweet cake with maple syrup and pecans.",
+      "imageUrl": "assets/cake32.jpg",
+      "ingredients": [
+        "Pecans",
+        "Maple Syrup",
+        "Flour",
+        "Sugar",
+        "Eggs"
+      ],
+      "rating": 4.8,
+      "id": "32"
+    },
+    {
+      "id": "34",
+      "name": "Black Forest Cake",
+      "price": 800,
+      "rating": 4.9,
+      "description": "A delicious chocolate cake with cherries and whipped cream.",
+      "imageUrl": "assets/cake34.jpg",
+      "ingredients": [
+        "Cherries",
+        "Chocolate",
+        "Flour",
+        "Sugar",
+        "Cream"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Coffee Cake",
+      "price": 499,
+      "rating": 4.5,
+      "description": "A soft cake flavored with coffee.",
+      "imageUrl": "assets/cake35.jpg",
+      "ingredients": [
+        "Coffee",
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ]
+    },
+    {
+      "id": 1740159365,
+      "name": "Cheese Cake",
+      "price": 1200,
+      "description": "Yummmyyyyyyyyy",
+      "imageUrl": "",
+      "ingredients": [
+        "cheese",
+        "egg",
+        "flour",
+        "oil"
+      ],
+      "rating": 5
+    },
+    {
+      "id": 1740160782,
+      "name": "dsmdkmedk",
+      "price": 11,
+      "description": "",
+      "imageUrl": "wdkmekdm",
+      "ingredients": [
+        ""
+      ],
+      "rating": 5
+    }
+  ]
+}

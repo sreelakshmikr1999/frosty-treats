@@ -1,0 +1,19 @@
+<div class="cake-details" *ngIf="cake">
+  <img [src]="cake.imageUrl" alt="{{ cake.name }}" class="cake-image" />
+  <div class="details-container">
+    <h2>{{ cake.name }}</h2>
+    <p class="price">Price: ₹{{ cake.price }}</p>
+    <p class="rating">⭐ {{ cake.rating }}/5</p>
+    <p class="description">{{ cake.description }}</p>
+
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <li *ngFor="let ingredient of cake.ingredients">{{ ingredient }}</li>
+      </ul>
+    </div>
+
+    <button class="add-cart">Add to Cart 🛒</button>
+    <button class="back-btn" (click)="goBack()">Back</button>
+  </div>
+</div>

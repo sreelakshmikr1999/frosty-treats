@@ -1,0 +1,57 @@
+<header class="header">
+  <h1>Frosty Treats</h1>
+  <button class="create-btn" (click)="createProduct()">Create</button>
+</header>
+
+<div class="product-list" *ngIf="products$ | async as products">
+  <div
+    class="product-card"
+    *ngFor="let product of paginatedProducts"
+    (click)="viewDetails(product.id)"
+  >
+    <div class="image-container">
+
+      <div class="action-icons">
+        <button
+          class="icon-btn"
+          (click)="editProduct(product.id); $event.stopPropagation()"
+        >
+          ✏️
+        </button>
+        <button
+          class="icon-btn"
+          (click)="deleteProduct(product); $event.stopPropagation()"
+        >
+          🗑️
+        </button>
+      </div>
+    </div>
+
+    <div class="details">
+      <h3>{{ product.name }}</h3>
+      <p class="price">₹{{ product.price }}</p>
+      <p class="rating">⭐ {{ product.rating }}/5</p>
+    </div>
+  </div>
+</div>
+
+<!-- Pagination -->
+<div class="pagination" *ngIf="products.length > itemsPerPage">
+  <button
+    class="pagination-btn"
+    (click)="prevPage()"
+    [disabled]="currentPage === 1"
+    [class.disabled]="currentPage === 1"
+  >
+    ❮ Prev
+  </button>
+  <span class="page-info">Page {{ currentPage }} of {{ totalPages }}</span>
+  <button
+    class="pagination-btn"
+    (click)="nextPage()"
+    [disabled]="currentPage === totalPages"
+    [class.disabled]="currentPage === totalPages"
+  >
+    Next ❯
+  </button>
+</div>

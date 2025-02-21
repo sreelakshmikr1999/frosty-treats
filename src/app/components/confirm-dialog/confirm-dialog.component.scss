@@ -1,0 +1,15 @@
+.dialog-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e91e63;
+}
+.dialog-content {
+  font-size: 16px;
+  padding: 10px 0;
+}
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+}

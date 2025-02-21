@@ -1,0 +1,104 @@
+<div class="container">
+  <h2>{{ isEditMode ? "Edit Product" : "Create New Product" }}</h2>
+
+  <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Product Name</label>
+      <input
+        type="text"
+        id="name"
+        formControlName="name"
+        placeholder="Enter product name"
+      />
+      <div
+        class="error"
+        *ngIf="
+          productForm.get('name')?.invalid &&
+          (productForm.get('name')?.dirty || productForm.get('name')?.touched)
+        "
+      >
+        <span *ngIf="productForm.get('name')?.errors?.['required']"
+          >Name is required</span
+        >
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="price">Price (₹)</label>
+      <input
+        type="number"
+        id="price"
+        formControlName="price"
+        placeholder="Enter price"
+      />
+      <div
+        class="error"
+        *ngIf="
+          productForm.get('price')?.invalid &&
+          (productForm.get('price')?.dirty || productForm.get('price')?.touched)
+        "
+      >
+        <span *ngIf="productForm.get('price')?.errors?.['required']"
+          >Price is required</span
+        >
+        <span *ngIf="productForm.get('price')?.errors?.['min']"
+          >Price must be greater than 0</span
+        >
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="rating">Rating</label>
+      <input
+        type="number"
+        id="rating"
+        formControlName="rating"
+        min="0"
+        max="5"
+        step="0.1"
+        placeholder="Enter rating (0-5)"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="imageUrl">Image URL</label>
+      <input
+        type="text"
+        id="imageUrl"
+        formControlName="imageUrl"
+        placeholder="Enter image URL"
+      />
+    </div>
+
+    <div class="form-group full-width">
+      <label for="description">Description</label>
+      <textarea
+        id="description"
+        formControlName="description"
+        placeholder="Enter product description"
+      ></textarea>
+    </div>
+
+    <div class="form-group full-width">
+      <label for="ingredients">Ingredients (comma-separated)</label>
+      <input
+        type="text"
+        id="ingredients"
+        formControlName="ingredients"
+        placeholder="e.g., Flour, Sugar, Eggs"
+      />
+    </div>
+
+    <div class="button-group">
+      <button
+        type="submit"
+        class="submit-button"
+        [disabled]="productForm.invalid"
+        [title]="getErrorMessage()"
+      >
+        {{ isEditMode ? "Update" : "Create" }} Product
+      </button>
+      <button type="button" (click)="onCancel()">Cancel</button>
+    </div>
+  </form>
+</div>
