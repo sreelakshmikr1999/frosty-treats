@@ -1,36 +1,6 @@
 {
   "products": [
     {
-      "id": "16",
-      "name": "Strawberry Cheesecake",
-      "price": 599,
-      "rating": 4.8,
-      "description": "A creamy cheesecake with a fresh strawberry topping.",
-      "imageUrl": "assets/cake16.jpg",
-      "ingredients": [
-        "Cream Cheese",
-        "Strawberries",
-        "Sugar",
-        "Eggs",
-        "Graham Cracker Crust"
-      ]
-    },
-    {
-      "id": "18",
-      "name": "Mango Mousse Cake",
-      "price": 699,
-      "rating": 4.7,
-      "description": "A light and refreshing mango mousse cake.",
-      "imageUrl": "assets/cake18.jpg",
-      "ingredients": [
-        "Mango",
-        "Cream",
-        "Sugar",
-        "Gelatin",
-        "Biscuits"
-      ]
-    },
-    {
       "id": "19",
       "name": "Chocolate Fudge Cake",
       "price": 799,

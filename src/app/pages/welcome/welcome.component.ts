@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class WelcomeComponent {
   constructor(private router: Router) {}
-  
+
   goToProducts() {
     this.router.navigate(['/products']);
   }

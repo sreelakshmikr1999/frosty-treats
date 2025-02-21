@@ -26,15 +26,9 @@ export const selectError = createSelector(
 
 export const selectProductById = (productId: number) =>
   createSelector(selectProductState, (state: ProductState) => {
-    console.log('State in selector:', state);
-    console.log('Looking for product ID:', productId);
-    console.log(
-      'Available product IDs:',
-      state?.products.map((p) => p.id)
-    );
+   
     const product = state?.products.find(
       (p) => Number(p.id) === Number(productId)
     );
-    console.log('Found product:', product);
     return product ?? null;
   });
